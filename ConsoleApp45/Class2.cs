@@ -11,10 +11,10 @@ namespace ConsoleApp45
     {
         public string Genre ="";
         //Genre dəyəri təyin olunmadan Book yaradıla bilməz
-        public Book(string genre)
+        public Book(string name, double price, string genre) : base(name,price)
         {
             Genre = genre;
         }
 
-    }
+}
 }
