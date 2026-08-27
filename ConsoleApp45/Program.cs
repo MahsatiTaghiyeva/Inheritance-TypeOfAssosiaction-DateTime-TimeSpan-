@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace ConsoleApp45
@@ -31,7 +32,24 @@ namespace ConsoleApp45
             Console.WriteLine("----------------------------");
             Console.WriteLine("1. Filter books by price");
             Console.WriteLine("2. Show all books");
-            Console.WriteLine("3. Exit");
+            Console.WriteLine("0. Exit");
+            int choice = Convert.ToInt32(Console.ReadLine());
+            if (choice == 0)
+            {
+                Console.WriteLine("GoodBye!...");
+            }
+            if (choice == 1)
+            {
+                
+            }
+
+            else if (choice == 2)
+            {
+                for (int i = 0; i < count; i++)
+                {
+                    books[i].Detail();
+                }
+            }
         }
     }
 }

@@ -13,11 +13,10 @@ namespace ConsoleApp45
         public int Count;
 
         //Detail methodu olsun Product haqqinda butun melumatlari geriye qaytarsin
-        public void Detail(string Name, double Price, int Count)
+        public void Detail()
         {
             Console.WriteLine($"Product Name: {Name}, Price: {Price}, Count: {Count}");
         }
-
         //Discount methodu olsun (int) endirim faizi qebul etsin ve geriye productin satis price-ni yazdirsin.
         public void Discount(double Price, int Percentage)
         {
