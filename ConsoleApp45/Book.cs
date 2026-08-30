@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ConsoleApp45
-{
     //Productdan miras alır ve Genre ozelliyi var;
     internal class Book: Product
     {
@@ -15,6 +8,5 @@ namespace ConsoleApp45
         {
             Genre = genre;
         }
+}
 
-}
-}

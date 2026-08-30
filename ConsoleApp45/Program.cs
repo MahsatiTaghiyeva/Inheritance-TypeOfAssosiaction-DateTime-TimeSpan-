@@ -1,9 +1,4 @@
 ﻿using System;
-using System.ComponentModel.DataAnnotations;
-using static System.Runtime.InteropServices.JavaScript.JSType;
-
-namespace ConsoleApp45
-{
     internal class Program
     {
         static void Main(string[] args)
@@ -52,5 +47,4 @@ namespace ConsoleApp45
             }
         }
     }
-}
 //daha sonra verdiyimiz say defe bizden book ucun lazim olan butun inputlari daxil etmeyimizi istemelidi, dovrun her stepinde yeni bir book obyekti yaranib array-e elave edilmelidir .
