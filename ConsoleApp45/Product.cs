@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 //Product class yaradin (Name,Price,Count) 
-namespace ConsoleApp45
-{
     internal class Product
     {
         public string Name = "";
@@ -30,4 +24,3 @@ namespace ConsoleApp45
             Price = price;
         }
     }
-}
