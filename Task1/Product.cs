@@ -12,7 +12,7 @@
             Console.WriteLine($"Product Name: {Name}, Price: {Price}, Count: {Count}");
         }
         //Discount methodu olsun (int) endirim faizi qebul etsin ve geriye productin satis price-ni yazdirsin.
-        public void Discount(double Price, int Percentage)
+        public void Discount(int Percentage)
         {
             double newPrice = Price - (Price * Percentage / 100);
             Console.WriteLine($"New Price: {newPrice}");
