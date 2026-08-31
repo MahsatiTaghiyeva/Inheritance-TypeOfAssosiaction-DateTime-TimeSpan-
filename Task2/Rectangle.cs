@@ -5,9 +5,6 @@ class Rectangle : Shape
     public Rectangle(string color, double length) : base(color)
     {
         Length = length;
-    }
-    public void FindArea()
-    {
         Area = Length*Length;
     }
 }
